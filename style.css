@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body {
+    background-color: #020C1B;
+}
+
+.navbar {
+    float: right;
+}
+
+.header {
+  
+
+    height: 204px;
+}
+
+.centered-header{
+    margin: auto;
+}
+.logo {
+    float: left;
+    font-size: 60px;
+    color: #CD64FF;
+    font-weight: bold;
+    vertical-align: middle;
+    width: 243px;
+}
+
+table td div.repo {
+    background-color: lime;
+    margin: 16px 16px 16px 16px;
+    height: 346px;
+    width: 400px;
+    border-radius: 16px;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.i {
+    size: 48;
+    color: orange;
+}
+
+
+.cv-btn {
+    width: 121px;
+    height: 60px;
+
+    border: 2px solid #CD64FF;
+    background-color: #020C1B;
+    color: #CD64FF;
+
+
+    font-size: 23px;
+    border-radius: 10px;
+}
+
+.cv-btn:hover {
+    border-color: #D9D9D9;
+    color: #D9D9D9;
+
+}
+
+ul {
+    display:flex;
+    align-items: center;
+
+}
+
+
+ul li {
+    list-style: none;
+    margin-left: 20px;
+
+    font-size: 23px;
+}
+
+
+ul li a {
+    text-decoration: none;
+    color: #D9D9D9;
+    font-family: Arial;
+    font-weight: bold;
+    /* transition: 0.4s ease-in-out; */
+}
+
+ul li a:hover {
+    color: #CD64FF;
+
+}
+
+.cv-download{
+    height: 60px;
+    width: 350px;
+}
+
+p{
+    color: #D9D9D9;
+}
+
+
+
+
+
+.contact{
+    display: grid;
+    place-items: center;
+}
+
+
+.contact form {
+    display: grid;
+
+
+}
