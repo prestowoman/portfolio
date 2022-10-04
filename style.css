@@ -6,7 +6,8 @@
 
 
 body {
-    background-color: #020C1B;
+    /* background-color: #020C1B; */
+    background-color: white;
 }
 
 .navbar {
@@ -14,14 +15,15 @@ body {
 }
 
 .header {
-  
+
 
     height: 204px;
 }
 
-.centered-header{
+.centered-header {
     margin: auto;
 }
+
 .logo {
     float: left;
     font-size: 60px;
@@ -70,7 +72,7 @@ table {
 }
 
 ul {
-    display:flex;
+    display: flex;
     align-items: center;
 
 }
@@ -97,12 +99,12 @@ ul li a:hover {
 
 }
 
-.cv-download{
+.cv-download {
     height: 60px;
     width: 350px;
 }
 
-p{
+p {
     color: #D9D9D9;
 }
 
@@ -110,7 +112,7 @@ p{
 
 
 
-.contact{
+.contact {
     display: grid;
     place-items: center;
 }
@@ -120,4 +122,101 @@ p{
     display: grid;
 
 
+}
+
+
+.repo {
+    display: grid;
+
+}
+
+
+.repo-icons {
+
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.folder{
+    justify-self: start;
+}
+
+.open{
+    align-self: end;
+}
+
+
+.tools{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-self: start;
+
+
+}
+
+.repositories {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 3em;
+
+
+}
+
+.repositories .title{
+    align-self: center;
+    justify-self: center;
+    align-content: center;
+    grid-column: 1/4;
+}
+
+
+
+
+.github-account{
+    grid-column: 1/4;
+
+    align-self: center;
+    width: 300;
+    justify-self: center;
+}
+
+
+
+.featured-project{
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+
+
+
+
+}
+.experience{
+    width: 300px;
+    
+}
+
+.experience .section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: start;
+    padding: 0px;
+
+}
+
+
+
+
+
+
+
+.featured-project .image{
+    width: 400px;
+    height: 200px;
+    /* background-image: url("project.png"); */
+    background-color: aqua;
+    object-fit :cover;
+    
 }
