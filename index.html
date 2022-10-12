@@ -7,8 +7,11 @@
 
     </title>
     <link rel="stylesheet" href="style.css">
-
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <!-- <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script> -->
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet"
+        type='text/css'>
+    <!-- <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> -->
 </head>
 
 <body>
@@ -22,8 +25,8 @@
             <ul class="navbar">
                 <li> <a href="#about">About</a></li>
                 <li> <a href="#experience">Experience</a></li>
-                <li> <a href="#">Work</a></li>
-                <li> <a href="#">Contact</a></li>
+                <li> <a href="#work">Work</a></li>
+                <li> <a href="#contact">Contact</a></li>
                 <li> <button class="cv-btn btn">CV</button></li>
             </ul>
         </div>
@@ -32,10 +35,13 @@
 
 
     </div>
-    <span class="material-icons md-48">folder</span>
-    <span class="material-icons md-48">folder</span>
-    <span class="material-icons md-48">folder</span>
-    <span class="material-icons md-48">folder</span>
+
+    <div class="social-icons">
+        <span class="fa fa-twitter"></span>
+        <span class="fa fa-instagram"></span>
+        <span class="fa fa-github"></span>
+        <span class="fa fa-facebook"></span>
+    </div>
 
 
     <p class="name">Ekhlass Talha</p>
@@ -46,7 +52,7 @@
         I’m focused on building Continous Intergration Continuos Deployment(CICD) solutions for organizations.</p>
     <button class="cv-btn cv-download btn">Download CV</button>
 
-    <div class="about-me">
+    <div class="about-me" id="about">
         <p class="title">About me</p>
 
         <div class="text-info">
@@ -67,7 +73,7 @@
             </p>
         </div>
 
-        <img src="featured_project.jpeg" alt="project" class="profile">
+        <img src="profile.jpeg" alt="project" class="profile">
     </div>
 
 
@@ -76,22 +82,22 @@
 
 
 
-    <div class="experience">
+    <div class="experience" id="experience">
         <div class="title">Where I have worked</div>
         <div class="section">
-            <div class="job-title">Software Engineer</div>
-            <div class="company">@WezaProsoft</div>
+            <div class="job-title">Software Engineer </div>
+            <div class="company"> @WezaProsoft</div>
             <div class="period">Jan 2020 - Present</div>
         </div>
         <div class="section">
-            <div class="job-title">Software Engineer</div>
-            <div class="company">@WezaProsoft</div>
+            <div class="job-title">Software Engineer </div>
+            <div class="company"> @WezaProsoft</div>
             <div class="period">Jan 2020 - Present</div>
         </div>
     </div>
 
 
-    <div class="projects">
+    <div class="projects" id="work">
 
 
         <div class="title">Some Things I have built</div>
@@ -108,10 +114,9 @@
                 <div class="project-description">A minimal, dark blue theme for VS Code, Sublime Text, Atom, iTerm, and
                     more. Available on Visual Studio Marketplace, Package Control, Atom Package Manager, and npm.</div>
                 <div class="project-icons">
-                    <!-- <div class="github material-icons md-48">github</div> -->
-                    <div class="open material-icons md-48">blinds</div>
-                    <div class="open material-icons md-48">blinds</div>
+                    <span class="fa fa-github"></span>
 
+                    <i class="fa fa-external-link-square" aria-hidden="true"></i>
                 </div>
 
             </div>
@@ -127,10 +132,9 @@
                 <div class="project-description">A minimal, dark blue theme for VS Code, Sublime Text, Atom, iTerm, and
                     more. Available on Visual Studio Marketplace, Package Control, Atom Package Manager, and npm.</div>
                 <div class="project-icons">
-                    <!-- <div class="github material-icons md-48">github</div> -->
-                    <div class="open material-icons md-48">blinds</div>
-                    <div class="open material-icons md-48">blinds</div>
+                    <span class="fa fa-github"></span>
 
+                    <i class="fa fa-external-link-square" aria-hidden="true"></i>
                 </div>
 
             </div>
@@ -146,10 +150,9 @@
                 <div class="project-description">A minimal, dark blue theme for VS Code, Sublime Text, Atom, iTerm, and
                     more. Available on Visual Studio Marketplace, Package Control, Atom Package Manager, and npm.</div>
                 <div class="project-icons">
-                    <!-- <div class="github material-icons md-48">github</div> -->
-                    <div class="open material-icons md-48">blinds</div>
-                    <div class="open material-icons md-48">blinds</div>
+                    <span class="fa fa-github"></span>
 
+                    <i class="fa fa-external-link-square" aria-hidden="true"></i>
                 </div>
 
             </div>
@@ -161,10 +164,9 @@
             <div class="repo">
 
                 <div class="repo-icons">
-                    <div class="folder material-icons md-48">folder</div>
-                    <div class="folder2 material-icons md-48">folder</div>
+                    <div id="folder-icon"> <i class="fa fa-solid fa-folder"></i></div>
+                    <div id="open-link-icon"><i class="fa fa-external-link-square" aria-hidden="true"></i></div>
                 </div>
-
                 <div class="project-repo">WordPress Plugin for Algolia Intergration</div>
                 <div class="project-repo-description">Building a custom plugin from scratch using php, Building a custom
                     plugin from scratch using php, Building a custom plugin from scratch using php</div>
@@ -181,10 +183,9 @@
             <div class="repo">
 
                 <div class="repo-icons">
-                    <div class="folder material-icons md-48">folder</div>
-                    <div class="folder2 material-icons md-48">folder</div>
+                    <div id="folder-icon"> <i class="fa fa-solid fa-folder"></i></div>
+                    <div id="open-link-icon"><i class="fa fa-external-link-square" aria-hidden="true"></i></div>
                 </div>
-
                 <div class="project-repo">WordPress Plugin for Algolia Intergration</div>
                 <div class="project-repo-description">Building a custom plugin from scratch using php, Building a custom
                     plugin from scratch using php, Building a custom plugin from scratch using php</div>
@@ -201,10 +202,9 @@
             <div class="repo">
 
                 <div class="repo-icons">
-                    <div class="folder material-icons md-48">folder</div>
-                    <div class="folder2 material-icons md-48">folder</div>
+                    <div id="folder-icon"> <i class="fa fa-solid fa-folder"></i></div>
+                    <div id="open-link-icon"><i class="fa fa-external-link-square" aria-hidden="true"></i></div>
                 </div>
-
                 <div class="project-repo">WordPress Plugin for Algolia Intergration</div>
                 <div class="project-repo-description">Building a custom plugin from scratch using php, Building a custom
                     plugin from scratch using php, Building a custom plugin from scratch using php</div>
@@ -221,10 +221,9 @@
             <div class="repo">
 
                 <div class="repo-icons">
-                    <div class="folder material-icons md-48">folder</div>
-                    <div class="folder2 material-icons md-48">folder</div>
+                    <div id="folder-icon"> <i class="fa fa-solid fa-folder"></i></div>
+                    <div id="open-link-icon"><i class="fa fa-external-link-square" aria-hidden="true"></i></div>
                 </div>
-
                 <div class="project-repo">WordPress Plugin for Algolia Intergration</div>
                 <div class="project-repo-description">Building a custom plugin from scratch using php, Building a custom
                     plugin from scratch using php, Building a custom plugin from scratch using php</div>
@@ -241,10 +240,9 @@
             <div class="repo">
 
                 <div class="repo-icons">
-                    <div class="folder material-icons md-48">folder</div>
-                    <div class="folder2 material-icons md-48">folder</div>
+                    <div id="folder-icon"> <i class="fa fa-solid fa-folder"></i></div>
+                    <div id="open-link-icon"><i class="fa fa-external-link-square" aria-hidden="true"></i></div>
                 </div>
-
                 <div class="project-repo">WordPress Plugin for Algolia Intergration</div>
                 <div class="project-repo-description">Building a custom plugin from scratch using php, Building a custom
                     plugin from scratch using php, Building a custom plugin from scratch using php</div>
@@ -261,10 +259,9 @@
             <div class="repo">
 
                 <div class="repo-icons">
-                    <div class="folder material-icons md-48">folder</div>
-                    <div class="folder2 material-icons md-48">folder</div>
+                    <div id="folder-icon"> <i class="fa fa-solid fa-folder"></i></div>
+                    <div id="open-link-icon"><i class="fa fa-external-link-square" aria-hidden="true"></i></div>
                 </div>
-
                 <div class="project-repo">WordPress Plugin for Algolia Intergration</div>
                 <div class="project-repo-description">Building a custom plugin from scratch using php, Building a custom
                     plugin from scratch using php, Building a custom plugin from scratch using php</div>
@@ -283,7 +280,7 @@
             </div>
         </div>
 
-        <div class="contact">
+        <div class="contact" id="contact">
 
             <div class="title">Get In Touch</div>
             <div class="description">Although I’m not currently looking for any new opportunities, my inbox is always
@@ -291,10 +288,11 @@
                 Whether you have a question or just want to say hi, I’ll try my best to get back to you!</div>
 
             <form>
-                <input type="email" placeholder="Email" class="email">
-
-                <textarea name="message">Message</textarea>
-                <button class="send">Send</button>
+                <div class="email-div">                <input type="email" placeholder="Email" class="email">
+                </div>
+<div class="message-div">                <textarea name="message">Message</textarea>
+</div>
+            <div class="send-div"></div>    <button class="send">Send</button>
 
             </form>
 
