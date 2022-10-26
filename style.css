@@ -288,7 +288,7 @@ p {
     font-size: 30px;
     line-height: 45px;
     color: #D9D9D9;
-    padding-top:250px;
+    padding-top: 250px;
 
 
 }
@@ -303,7 +303,7 @@ p {
 .header {
     z-index: 9999;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     padding-bottom: 10px;
     position: fixed;
 
@@ -319,7 +319,7 @@ p {
 .header .navbar {
 
     grid-column: 7/9;
-    
+
 
 
 
@@ -336,7 +336,7 @@ p {
 }
 
 .social-icons .fa {
-    
+
     padding-right: 10px;
     font-size: 30px;
     color: #CD64FF;
@@ -366,7 +366,7 @@ p {
     font-weight: 400;
     font-size: 23px;
     line-height: 34px;
-    width: 736px;
+    max-width: 736px;
     padding-top: 32px;
     padding-bottom: 50px;
 }
@@ -393,7 +393,7 @@ p {
     color: #D9D9D9;
 }
 
-.experience .title{
+.experience .title {
     padding-top: 290px;
 }
 
@@ -454,7 +454,7 @@ p {
 
 }
 
-.project-icons .fa{
+.project-icons .fa {
     font-size: 30px;
     padding-right: 20px;
 
@@ -499,7 +499,7 @@ p {
     justify-self: center;
 }
 
-.send-div{
+.send-div {
     padding-top: 34px;
 
 }
@@ -517,10 +517,12 @@ p {
 
 
 }
-.email-div{
+
+.email-div {
     padding-top: 50px;
 
 }
+
 textarea {
     width: 692px;
     height: 261px;
@@ -533,15 +535,16 @@ textarea {
     line-height: 36px;
     padding-top: 20px;
 }
-.message-div{
-padding-top: 20px;
+
+.message-div {
+    padding-top: 20px;
 }
 
-::placeholder { 
+::placeholder {
     color: #FFFFFF;
     padding-left: 20px;
 
-  }
+}
 
 .contact .description {
 
@@ -555,12 +558,13 @@ padding-top: 20px;
 
 }
 
-.contact .title{
+.contact .title {
     font-weight: 600;
-font-size: 60px;
-line-height: 90px;
-padding-top: 159px;
+    font-size: 60px;
+    line-height: 90px;
+    padding-top: 159px;
 }
+
 .project-repo {
 
     font-weight: 600;
@@ -594,7 +598,7 @@ padding-top: 159px;
 
 
 
-#folder-icon{
+#folder-icon {
     color: #CD64FF;
     font-size: 30px;
 
@@ -604,9 +608,9 @@ padding-top: 159px;
 
 
 
-#open-link-icon{
+#open-link-icon {
     justify-self: end;
     color: #A8B2D1;
     font-size: 30px;
-    
+
 }
