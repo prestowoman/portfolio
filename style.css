@@ -12,6 +12,7 @@ body {
     margin: 0 auto;
     width: 80vw;
     font-family: Arial, Helvetica, sans-serif;
+    padding: auto;
 }
 
 .navbar {
@@ -666,7 +667,7 @@ textarea {
 
     .section .period {
         font-size:  15px;
-    }
+    }f
     .cv-download{
         width: 280px;
     }
@@ -795,6 +796,7 @@ textarea {
         justify-self: center;
         justify-content: center;
         justify-items: center;
+        padding-right: 40px;
 
        
     }
@@ -832,12 +834,34 @@ textarea {
        width: unset;
     }
 
-    .right-padding{
+    /* .right-padding{
         padding-right: 40px;
         padding-left: 40px;
-    }
+    } */
 
-    .right-padding .title{
+    /* .right-padding .title{
         text-align: center;
     }
+} */
+
+@media all and (max-width : 670px) {
+    .name {
+        font-size: 40px;
+
+    }
+    #slogan {
+        font-size: 40px;
+    }
+    
+}
+
+@media all and (max-width : 480px) {
+    .name {
+        font-size: 30px;
+
+    }
+    #slogan {
+        font-size: 30px;
+    }
+    
 }
